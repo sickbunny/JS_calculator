@@ -5,9 +5,7 @@
     margin: 0;
   padding: 0;
 }
-div {
-  /*border: 2px solid black;*/
-}
+
 .order-wrapper {
   display: grid;
   grid-template-columns: 100px 100px;
@@ -37,7 +35,7 @@ div {
     white 380px);
   border: 2px solid black;
   box-shadow: 1px 1px 0px 1px grey inset;
-  text-wrap: wrap;
+  word-wrap: break-word;
 }
 #display {
   color: linen;
